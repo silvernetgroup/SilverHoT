@@ -35,49 +35,27 @@ namespace IoT160.UWP
             string partitionKey = "SilverRPI";
             string rowKey = "1";
 
-            //StorageUri uri = new StorageUri(https://silverhot.table.core.windows.net/RPIData);
             try
             {
                 var accountName = "silverhot";
                 var accountKey = "+aR0rcYc4pF9WfhTKmayejycGGRx4tqDp7/LN95BYg5wsIP+8XCL6r0SPFSE6TNEWAi9WEHdK/2O02JYDQiCRg==";
                 var credentials = new StorageCredentials(accountName, accountKey);
                 var account = new CloudStorageAccount(credentials, true);
-
+                
                 CloudTableClient client = account.CreateCloudTableClient();
                 CloudTable table = client.GetTableReference("RPIData");
 
-                //TableOperation retrieveOperation = TableOperation.Retrieve<Entity>(partitionKey, rowKey);
-
-                //TableOperation op = TableOperation.Retrieve<Entity>(partitionKey, rowKey);
-                //var res = await table.ExecuteAsync(op);
-                //Entity e = (Entity)res.Result;
+                TableOperation op = TableOperation.Retrieve<Entity>(partitionKey, rowKey);
 
                 TableQuery<Entity> query = new TableQuery<Entity>().Where(TableQuery.GenerateFilterCondition("PartitionKey", QueryComparisons.Equal, "SilverRPI"));
 
-                //TableQuery<Entity> query = new TableQuery<Entity>();//.Where(TableQuery.GenerateFilterCondition(partitionKey,QueryComparisons.Equal,"SilverRPI"));
-                //Debug.WriteLine(((Entity)query.Result).PartitionKey);
-                //Debug.WriteLine(((Entity)query.Result).RowKey);
-                /*Debug.WriteLine(e.PartitionKey);
-                Debug.WriteLine(e.RowKey);
-                Debug.WriteLine(e.deviceid);
-                Debug.WriteLine(e.message);
-                Debug.WriteLine(e.ToString());*/
+                var token = new TableContinuationToken();
+                var temp = await table.ExecuteQuerySegmentedAsync(query,token);
 
-                //var temp = await table.ExecuteAsync(query);
-
-                /*foreach (Entity item in temp)
+                foreach (Entity item in temp)
                 {
-                    Debug.WriteLine("{0},{1},{2},{3},{4},{5}", item.PartitionKey, item.RowKey, item.deviceid, item.message, item.time);
-                }*/
-
-                /*if (query.Result != null)
-                {
-                    outline = outline + ((ServiceAlertsEntity) query.Result).alertMessage + " * ";
+                    Debug.WriteLine("{0},{1},{2},{3},{4}!!!", item.PartitionKey, item.RowKey, item.deviceid, item.message, item.time);
                 }
-                else
-                {
-                    Console.WriteLine("No Alerts");
-                }*/
             }
             catch (Exception ex)
             {
@@ -96,57 +74,12 @@ namespace IoT160.UWP
             public Entity() { }
             public string deviceid { get; set; }
             public string message { get; set; }
-            public string time { get; set; }
+            public Int64 time { get; set; }
+
+            public override string ToString()
+            {
+                return String.Format("{0},{1},{2},{3}",PartitionKey,RowKey,message,time);
+            }
         }
-
-
-        /*public class Entity:ITableEntity
-        {
-            public string ETag
-            {
-                get
-                {
-                    throw new NotImplementedException();
-                }
-
-                set
-                {
-                    throw new NotImplementedException();
-                }
-            }
-
-            public string PartitionKey
-            {
-                get; set;
-            }
-
-            public string RowKey
-            {
-                get; set;
-            }
-
-            public DateTimeOffset Timestamp
-            {
-                get
-                {
-                    throw new NotImplementedException();
-                }
-
-                set
-                {
-                    throw new NotImplementedException();
-                }
-            }
-
-            public void ReadEntity(IDictionary<string, EntityProperty> properties, OperationContext operationContext)
-            {
-                throw new NotImplementedException();
-            }
-
-            public IDictionary<string, EntityProperty> WriteEntity(OperationContext operationContext)
-            {
-                throw new NotImplementedException();
-            }
-        }*/
     }
 }

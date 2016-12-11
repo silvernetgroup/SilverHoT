@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-11T06:58:23.326</Modified>
+      <Modified>2016-12-11T08:26:36.561</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160.UWP\bin\x86\Debug\IoT160.UWP.exe">
       <PackagePath>entrypoint\IoT160.UWP.exe</PackagePath>
-      <Modified>2016-12-11T06:58:22.718</Modified>
+      <Modified>2016-12-11T08:26:35.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jarek\.nuget\packages\Microsoft.AspNet.WebApi.Client\5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll">
       <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
@@ -701,7 +701,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160.UWP\bin\x86\Debug\Core\IoT160.UWP.exe">
       <PackagePath>IoT160.UWP.exe</PackagePath>
-      <Modified>2016-12-11T06:58:23.323</Modified>
+      <Modified>2016-12-11T08:26:36.558</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
