@@ -1,0 +1,17 @@
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\bin\Debug\IoT160.dll
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\bin\Debug\IoT160.pdb
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\obj\Debug\IoT160.csprojResolveAssemblyReference.cache
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\obj\Debug\IoT160.MainPage.xaml.g.cs
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\obj\Debug\IoT160.App.xaml.g.cs
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\obj\Debug\IoT160.dll
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\obj\Debug\IoT160.pdb
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\obj\Debug\IoT160.dll.mdb
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\bin\Debug\IoT160.dll.mdb

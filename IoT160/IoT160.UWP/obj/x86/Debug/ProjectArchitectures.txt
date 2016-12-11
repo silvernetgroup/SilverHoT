@@ -1,0 +1,2 @@
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160.UWP\IoT160.UWP.csproj;x86
+c:\users\marci\onedrive\dokumenty\visual studio 2015\Projects\IoT160\IoT160\IoT160\IoT160.csproj;neutral
