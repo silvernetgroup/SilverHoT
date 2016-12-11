@@ -3,9 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:IoT160"
              x:Class="IoT160.MainPage">
-
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
-
+  <Grid WidthRequest="300" HeightRequest="300" VerticalOptions="Center" HorizontalOptions="Center">
+   <Grid.RowDefinitions>
+     <RowDefinition Height="*">      
+     </RowDefinition>
+     <RowDefinition Height="*">
+     </RowDefinition>
+     <RowDefinition Height="*">
+     </RowDefinition>
+   <RowDefinition Height="*">
+     </RowDefinition>
+   </Grid.RowDefinitions>
+   <Label x:Name="FState" WidthRequest="200" FontSize="25" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center">
+   </Label>
+    <Label x:Name="HState" WidthRequest="200" FontSize="25" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center">
+   </Label>
+   <Label x:Name="State" WidthRequest="200" FontSize="25" Grid.Row="2" VerticalOptions="Center" HorizontalOptions="Center">
+   </Label>
+   <Button x:Name="ActionButton" WidthRequest="200" FontSize="25" Text="Odśwież" Grid.Row="3" VerticalOptions="Center" HorizontalOptions="Center">
+   </Button>
+ </Grid>
 </ContentPage>

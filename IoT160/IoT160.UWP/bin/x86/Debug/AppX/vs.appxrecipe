@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-11T08:26:36.561</Modified>
+      <Modified>2016-12-11T11:43:26.223</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160.UWP\bin\x86\Debug\IoT160.UWP.exe">
       <PackagePath>entrypoint\IoT160.UWP.exe</PackagePath>
-      <Modified>2016-12-11T08:26:35.977</Modified>
+      <Modified>2016-12-11T11:43:25.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jarek\.nuget\packages\Microsoft.AspNet.WebApi.Client\5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll">
       <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
@@ -634,7 +634,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\bin\Debug\IoT160.dll">
       <PackagePath>IoT160.dll</PackagePath>
-      <Modified>2016-12-11T04:04:55.360</Modified>
+      <Modified>2016-12-11T11:43:24.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jarek\.nuget\packages\Microsoft.Azure.Devices.Client\1.0.16\lib\uap10.0\Microsoft.Azure.Devices.Client.winmd">
       <PackagePath>Microsoft.Azure.Devices.Client.winmd</PackagePath>
@@ -697,11 +697,11 @@
     <AppxPackagedFile Include="C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-11T05:51:20.358</Modified>
+      <Modified>2016-12-11T09:40:54.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160.UWP\bin\x86\Debug\Core\IoT160.UWP.exe">
       <PackagePath>IoT160.UWP.exe</PackagePath>
-      <Modified>2016-12-11T08:26:36.558</Modified>
+      <Modified>2016-12-11T11:43:26.217</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -25,8 +25,10 @@ C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\bin\Debug\Xamarin.Forms.Core.x
 C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\obj\Debug\IoT160.csprojResolveAssemblyReference.cache
 C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\obj\Debug\IoT160.MainPage.xaml.g.cs
 C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\obj\Debug\IoT160.App.xaml.g.cs
 C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\obj\Debug\IoT160.dll
 C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\obj\Debug\IoT160.pdb
+C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarek\GitHubRepo\SilverHoT\IoT160\IoT160\obj\Debug\IoT160.csprojResolveAssemblyReference.cache
