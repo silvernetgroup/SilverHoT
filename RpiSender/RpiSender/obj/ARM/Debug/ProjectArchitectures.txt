@@ -1,0 +1,1 @@
+C:\Users\marci\onedrive\dokumenty\visual studio 2015\Projects\RpiSender\RpiSender\RpiSender.csproj;arm
